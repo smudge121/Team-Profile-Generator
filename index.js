@@ -88,7 +88,6 @@ const engineerQuestions = [
 ];
 
 function generateCard(data, other, role){
-    console.log(data);
     if (role == 'Engineer')
     {
     cardList.push(`<div class="card m-3 bg-light" style="width: 18rem;">
